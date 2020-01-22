@@ -5,6 +5,8 @@ public with sharing class AccountService {
             AccountNumber = accountNumber,
             TickerSymbol = tickerSymbol
         );
+        System.debug('Just checking');
         return newAcct;
+
     }
 }
